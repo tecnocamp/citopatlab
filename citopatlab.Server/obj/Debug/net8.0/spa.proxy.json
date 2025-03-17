@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:56669",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\yagol\\Documents\\App\\citopatlab\\citopatlab.Server\\..\\citopatlab.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

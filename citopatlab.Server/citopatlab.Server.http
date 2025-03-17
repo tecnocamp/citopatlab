@@ -1,0 +1,6 @@
+@citopatlab.Server_HostAddress = http://localhost:5074
+
+GET {{citopatlab.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
