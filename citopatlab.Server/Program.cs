@@ -6,6 +6,12 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+app.UseCors(p => p
+    .AllowAnyOrigin()
+    .AllowAnyMethod().
+    AllowAnyHeader());
+
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
